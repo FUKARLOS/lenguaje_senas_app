@@ -6,10 +6,9 @@ import 'screens/home_screen.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // TODO: Replace with your actual Supabase URL and Anon Key
   await Supabase.initialize(
-    url: 'YOUR_SUPABASE_URL',
-    anonKey: 'YOUR_SUPABASE_ANON_KEY',
+    url: 'https://bjmrcednkputjmqzjjna.supabase.co',
+    anonKey: 'sb_publishable_qUnBoXonv4UCFbMwarlvpQ_MDyvJf2x',
   );
 
   runApp(const MyApp());
